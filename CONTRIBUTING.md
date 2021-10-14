@@ -74,6 +74,24 @@ If this doesn't work, try:
 python -m mkdocs serve
 ```
 
+## Web Accessibility
+
+Before releasing this website into the unknown, **PLEASE** make sure it has
+passed an accessibility check.
+There are some things in the template that we're working on (all those
+empty labels...).
+But things like alt text and Aria labels are mandatory.
+Also, please consider whether any linked content is appropriately captioned.
+- [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+- [WAVE Browser Extension (works on `jekyll` test site)](https://wave.webaim.org/extension/)
+- [Color Oracle - Color Blindness Simulator](https://colororacle.org/)
+
+You can read more about this on the University of Washington's
+[Developing Accessible Websites](https://www.washington.edu/accessibility/web/)
+page.
+
+
 ## Preparing for GitHub
 
 When you're satisfied with the site, you can build it for launch by running
