@@ -37,8 +37,13 @@ theme:
   # Assumes within base/ directory
   # logo: assets/CRG-color.png
   features:
+    # Keep tags in header
     - navigation.tabs
     - navigation.tabs.sticky
+    # Add "back to top" button
+    - navigation.top
+    # Update link location on page when scrolling
+    - navigation.tracking
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: light-unt
@@ -63,6 +68,11 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date
 
 # Change colors to meet web accessibility
 extra_css:
