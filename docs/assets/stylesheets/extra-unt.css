@@ -1,25 +1,32 @@
-/* UTD Mkdocs Custom CSS */
+/* UNT Mkdocs Custom CSS */
 
 /*
-UTD Orange: #E87500
-UTD Green: #154734
-UTD Teal: #5FE0B7
-UTD Silver: #8A8D8F
+UNT Green: #00853E
 White: #FFFFFF
 Black: #000000
+Secondary 1: #00A950
+Secondary 2: #509E2F
+Bold 1: #C4D600
+Bold 2: #00A9E0
+Bold 3: #AD1AAC
+Bold 4: #53565A
+Bold 5: #EF4B81
+Bold 6: #006747
+Soft 1: #B9DCD2
+Soft 2: #FFB1BB
 */
 
-[data-md-color-scheme="light-utd"] {
+[data-md-color-scheme="light-unt"] {
   /*--md-primary-fg-color:         #006747;*/
-  --md-primary-fg-color:          #154734;
+  --md-primary-fg-color:          #00853E;
   --md-default-fg-color--light:  black; /* Page title */
-  --md-footer-fg-color--lighter: #5FE0B7; /* "Made with" */
+  --md-footer-fg-color--lighter: #00C75D; /* "Made with" */
 /*  --md-primary-fg-color--light: #C4D600;
   --md-primary-fg-color--dark:  #00A9E0;*/
 }
 
 /* Dark mode -- Copied from default slate SCSS for easier tweaking */
-  [data-md-color-scheme="dark-utd"] {
+  [data-md-color-scheme="dark-unt"] {
 
   /* Slate's hue in the range [0,360] - change this variable to alter the tone
   of the theme, e.g. to make it more redish or greenish. This is a slate-
@@ -28,7 +35,7 @@ Black: #000000
     --md-hue: 220;
 
     /* Change header bar */
-    --md-primary-fg-color:        #F57A00; /* Use instead of #F07800 for contrast */ /*#C4D600;*/
+    --md-primary-fg-color:        #00C75D; /*#C4D600;*/
     --md-primary-bg-color:        black;
 
     /* Change active links */
@@ -87,6 +94,6 @@ Black: #000000
     /* Footer color shades */
     --md-footer-bg-color:              hsla(var(--md-hue), 15%, 12%, 0.87);
     --md-footer-bg-color--dark:        hsla(var(--md-hue), 15%, 10%, 1);
-    --md-footer-fg-color--lighter:     #E87500; /*#C4D600;*/
+    --md-footer-fg-color--lighter:     #00C75D; /*#C4D600;*/
   }
 }
